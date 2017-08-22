@@ -1,0 +1,727 @@
+/*main.css*/
+/*html, body, h1, h2, h3, h4, p, div, ul, li, ol, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font: inherit;
+  font-size: 100%;
+}*/
+/*font*/
+/*@font-face {
+  font-family: 'OpenSansRegular';
+  src: url('OpenSansRegular-webfont.eot');
+  font-style: normal;
+  font-weight: normal;
+}
+
+html, body, h1, h2, h3, h4, p, div, ul, li, ol, a {
+  font-family: 'OpenSansRegular', Helvetica, Arial, sans-serif;
+}
+*/
+
+
+
+/*nav ul {
+  background-color: #AB987A;
+}
+nav ul li:hover {
+  background-color: #554c3d;
+}
+nav ul li:hover a {
+  color: #fff;
+}
+
+nav ul li a {
+  color: #0F1626;
+}
+nav ul ul li:hover a {
+  color: #fff;
+}
+nav ul li ul li{
+  background-color: #AB987A;
+}
+*/
+body{
+  background-color: #584f44;
+}
+
+h3 {
+  color: #FFF;
+  /*font-family: 'Limelight', cursive;
+  font-size: 25px;*/
+  text-shadow: 4px 4px 6px #000;
+  margin-top: 75px;
+}
+
+.container {
+  background-color: #97a1b0;
+  min-height: 725px;
+  margin: 0 5%;
+}
+
+.logo {
+  /*color: white;*/
+  font-family: 'Limelight', cursive;
+  /*font-size: 25px;*/
+  /*text-shadow: 4px 4px 6px #000000;*/
+  margin-top: 5%;
+}
+
+
+.special{
+  padding: 6px 14.5px;
+
+}
+/*THIS KEEPS THE INPUT BOX THE SAME SIZE AS THE OTHERS */
+.fa-mobile-phone:before, .fa-mobile:before{
+  font-size: 20px;
+}
+
+.movedown {
+  padding-top: 25px;
+}
+
+/*.space {
+  margin-top: 75px;
+}*/
+
+/*-----------------------------------------------*/
+/*-------------->>>BLOCKQUOTE<<<-----------------*/
+/*-----------------------------------------------*/
+blockquote {
+  margin-right: -19px;
+  border-right: 100px solid #DF4908;
+}
+
+blockquote footer {
+  color: #5f5e5d;
+}
+
+.blockquote-reverse {
+  margin-right: -15px;
+  border-right: none;
+}
+
+/*DON'T NEED THE SPACE BELOW*/
+/*.space {
+  margin-top: 45px;
+}*/
+
+/*REMOVED THE HEADER FROM MY HTML*/
+.header{
+  /*float: left; */ /*MAKES LOGO UNCLICKABLE*/
+  padding-top: 43px;
+  margin-top: 15px;
+}
+
+/*-----------------------------------------------*/
+/*-------------->>>NAVIGATION<<<-----------------*/
+/*-----------------------------------------------*/
+nav {
+  background-color: #AB987A;
+}
+
+nav ul {
+  padding-top: 3px;
+  list-style: none;
+  position: relative;
+  display: inline-table;
+}
+
+nav ul :after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li:hover {
+  background: #887961;
+  border-radius: 10px;
+}
+
+nav ul li:hover > ul {
+  display: block;
+}
+
+nav ul li:hover a {
+  color: #0F1626;
+}
+
+nav ul li a {
+  display: block;
+  padding: 25px 40px;
+  color: #0F1626;
+  text-decoration: none;
+  height: 40px;
+  border: red 1px solid; /*REMOVE WHEN COMPLETE*/
+}
+
+nav ul ul {
+  display: none;
+  background-color: #AB987A;
+}
+
+nav ul ul li {
+  float: none;
+  position: relative;
+  /*background-color: #AB987A;*/
+}
+
+nav ul ul li a {
+  padding: 15px 40px;
+  /*color: #fff;*/
+}
+nav ul ul li a:hover {
+  background-color: #887961;
+  border-radius: 10px;
+  color: #0F1626;
+}
+
+.container-nav{
+  background-color: #AB987A;
+  margin: auto 80px; /*MAKE -80 TO STRETCH THE ENTIRE SCREEN*/
+}
+
+.nav{
+  border: none;
+  margin-top: 3px;
+}
+
+.navbar {
+  background-color: #AB987A;
+  border: none;
+  padding: 0 5%;
+  /*padding-right: 58px;
+  padding-left: 58px;*/
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover {
+    color: #F2882F;
+    background-color: #887961;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #0F1626;
+    padding-top: 7px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #F7882F;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: red; /*CHANGE TO NONE WHEN DONE*/
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #f7882f;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+  color: #FFF;
+  text-shadow: 4px 4px 6px #000;
+  font-size: 19px;
+  padding-top: 13px;
+}
+
+.navbar-brand {
+  font-family: 'Limelight', cursive;
+}
+
+.navbar-nav>li>a {
+  padding: 0 10px;
+  /*padding-top: 10px;
+  padding-bottom: 10px;*/
+  line-height: 20px;
+}
+
+.dropdown-menu {
+  background-color: #AB987A;
+}
+
+.dropdown-menu>li>a {
+    display: block;
+    padding: 9px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+
+.dropdown-menu>li>a:hover {
+    color: #F7882F;
+    text-decoration: none;
+    background-color: #887961;
+}
+
+.navbar-right{
+  margin: 3px 0 0 0;
+}
+/*TRYING TO FIX NAVBAR WHEN COLLAPSED*/
+.navbar-nav {
+  /*float: right;*/
+  margin: 0px 0px;
+}
+/*END*/
+/*END NAV*/
+
+
+/*.logo {
+  /*color: white;*/
+  /*font-family: 'Limelight', cursive;*/
+  /*font-size: 25px;*/
+  /*text-shadow: 4px 4px 6px #000000;*/
+  /*margin-top: auto;*/
+/*}*/
+
+
+
+.glyphicon-remove {
+  color: #cc0000;
+}
+
+.glyphicon-ok {
+  color: green;
+}
+
+.has-error .help-block {
+  color: #cc0000;
+  font-weight: bold;
+}
+
+.has-error, .help-block {
+  color: #cc0000;
+  font-weight: bold;
+}
+
+.has-error .input-group-addon {
+    color: #555;
+    background-color: #eee;
+    border-color: #a94442;
+}
+
+.has-success .input-group-addon {
+    color: #555;
+    background-color: #eee;
+}
+
+.has-error .form-control-feedback {
+    color: #cc0000;
+}
+
+#error{
+  color: #cc0000;
+  font-weight: bold;
+  font-size: 11.9px;
+}
+
+/*.parsley-errors-list {
+  color: red;
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.parsley-success {
+  color: green;
+}*/
+
+/*
+.field-error .control-label,
+.field-error .help-block,
+.field-error .form-control-feedback {
+    color: #ff0039;
+}
+
+.field-success .control-label,
+.field-success .help-block,
+.field-success .form-control-feedback {
+    color: #2780e3;
+}*/
+
+
+/*I AM TRYING TO ADD A GREEN VERIFICATION CHECK*/
+/*input[type="text"]:valid {
+  background: #fff url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/check.svg) no-repeat;
+  background-size: 20px;
+  background-position: 90% 6px;
+  color: green;
+
+}*/
+
+/*END*/
+/*
+input[type="email"]:invalid {
+  background: #fff url(images/logo.png) no-repeat;
+  background-size: 20px;
+  background-position: 90% 6px;
+  color: red;
+}
+
+input[type="email"]:valid {
+  background: #fff url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/check.svg) no-repeat;
+  background-size: 20px;
+  background-position: 90% 6px;
+  color: green;
+
+}*/
+
+
+
+
+
+
+
+
+
+/*****************************/
+/*******>>>NAVIGATION<<<******/
+/*****************************/
+/*nav {
+  background-color: #AB987A;
+}
+
+nav ul {
+  padding-top: 3px;
+  list-style: none;
+  position: relative;
+  display: inline-table;
+}
+
+nav ul :after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li:hover {
+  background: #887961;
+  border-radius: 10px;
+}
+
+nav ul li:hover a {
+  color: #0F1626;
+}
+
+nav ul li a {
+  display: block;
+  padding: 25px 40px;
+  color: #0F1626;
+  text-decoration: none;
+  height: 40px;
+  border: red 1px solid; /*REMOVE WHEN COMPLETE*
+}
+
+nav ul ul {
+  display: none;
+  background-color: #AB987A;
+}
+
+nav ul ul li {
+  float: none;
+  position: relative;
+  /*background-color: #AB987A;*
+}
+
+nav ul ul li a {
+  padding: 15px 40px;
+  /*color: #fff;*
+}
+nav ul ul li a:hover {
+  background-color: #887961;
+  border-radius: 10px;
+  color: #0F1626;
+}
+
+
+
+
+nav ul li:hover > ul {
+  display: block;
+}*/
+/********END-NAV***************/
+
+
+
+.jumbotron {
+  background: #fff url("../images/kevin-hs2.jpg") no-repeat;
+  background-size: 100% 100%;
+  margin: 53px 16% 0 16%;
+  height: 500px;
+}
+.jumbotron h1 {
+  height: 350px;
+  color: white;
+  /*font-family: 'Limelight', cursive;*/
+  font-size: 25px;
+  text-shadow: 4px 4px 6px #000;
+  /*text-align: center;*/
+  margin: -11% 0 65px 0;
+}
+
+
+/*MOVE @MEDIA TO THE BOTTOM*/
+@media screen and (max-width:491px) {
+  .jumbotron h1 {
+  opacity: 0;
+  }
+  .carousel-caption {
+    border-bottom-right-radius: -12px;
+  }
+}
+@media screen and (min-width:498px) and (max-width: 603px) {
+  .jumbotron h1 {
+  margin-top: -11%;
+  }
+}
+@media screen and (min-width:636px) and (max-width: 767px) {
+  .jumbotron h1 {
+  margin-top: -8%;
+  }
+}
+@media screen and (min-width:768px) and (max-width: 898px) {
+  .jumbotron h1 {
+  margin-top: -13%;
+  }
+}
+@media screen and (min-width: 992px) and (max-width:1144px) {
+  .jumbotron h1 {
+  margin-top: -10%;
+  }
+}
+@media screen and (min-width: 1145px) and (max-width:1298px) {
+  .jumbotron h1 {
+  margin-top: -8%;
+  }
+}
+
+
+
+/*MODIFIED THE NAVBAR COLLAPSE*/
+@media (max-width:767px) {
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+      position: absolute;
+      left: 87%;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding: 10px 0;
+      /*padding-top: 10px;
+      padding-bottom: 10px;*/
+  }
+  /********ul.nav.navbar-nav.navbar-right {
+      margin: -6px 85px 0 0;
+      /*margin-top: -6px;
+      margin-right: 85px;*
+
+  }**************/
+  .collapse.in{
+      display:block !important;
+  }
+  /*REMOVES HOVER STATE WHEN NAVBAR IS COLLAPSED*/
+  .dropdown-menu {
+    display: none !important;
+  }
+  .open .dropdown-menu {
+    display: block !important;
+  }
+  /*END*/
+}
+/*END*/
+
+/*ADJUST HOW MUCH BODY BACKGROUND COLOR IS SHOWING*/
+@media screen and (min-width: 768px) and (max-width: 2098px) {
+  .container {
+    min-width: 90%;
+    width: 90%;
+  }
+}
+/*END*/
+
+
+
+
+
+
+/*REMOVE THIS WHEN DONE STYLING*/
+div, span, p {
+  border: 1px solid red;
+}
+
+
+
+/*carousel*/
+/* Makes images fully responsive */
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  width: 100%;
+  height: 600px; /*ORIGINALLY WAS AUTO*/
+  padding: 0 7%;
+  border-radius: 10%;
+}
+
+/* ------------------- Carousel Styling ------------------- */
+
+.carousel-inner {
+  border-radius: 15px;
+}
+
+.carousel-caption {
+  background-color: rgba(0,0,0,.5);
+  position: absolute;
+  left: 6%;
+  right: 6%;
+  bottom: 0;
+  z-index: 10;
+  padding: 0 0 10px 25px;
+  margin-left: 10px;
+  color: #fff;
+  text-align: left;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  width: 86%;
+  /*animation-delay: 2s;*/
+}
+
+/*ADD THIS TO STYLE.CSS IF I USE*/
+.carousel-caption h3:first-child {
+    animation-delay: 1s;
+}
+
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 15;
+  margin: 0 5%;
+  padding: 0 12% 25px 12%;
+  text-align: right;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+
+.carousel {
+  margin-top: 80px;
+}
+
+/* ------------------- Section Styling - Not needed for carousel styling ------------------- */
+
+.section-white {
+   padding: 10px 0;
+   background-color: #fff;
+   color: #555;
+}
+
+@media screen and (min-width: 768px) {
+
+  .section-white {
+     padding: 1.5em 0;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+
+  .container {
+    max-width: 930px;
+  }
+
+}
+/*END CAROUSEL*/
+
+
+.img-float-right {
+  float: right;
+  width: 250px;
+  height: 250px;
+  border: 2px solid #F7882F;
+  padding: 5px;
+  margin: 0 0 2px 10px;
+}
+
+
+/*nav ul li ul li:hover a {
+  background-color: #554c3d;
+  color: #fff;
+}*/
+
+
+
+
+.inner-div {
+  /*padding: 250px 50px 250px 50px;*/
+}
+
+
+/*TRYING TO ADJUST MEDIA NAVBAR CLICK COLORS*/
+.navbar-default .navbar-nav>.open>a {
+  background-color: #AB987A;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #333;
+  }
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #F7882F;
+    background-color: #887961;
+    border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+    color: #F7882F;
+    background-color: #887961;
+  }
+}
+
+
+/*END*/
