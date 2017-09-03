@@ -24,151 +24,6 @@
     <link rel="stylesheet" href="../css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Limelight" rel="stylesheet">
     <!--<script src="../js/main.js"></script>-->
-<!--
-    <script src="../js/parsley.min.js"></script>
-    <script>
-      $('#form').parsley();
-    </script>
--->
-
-    <!--<script>
-    $(document).ready(function() {
-        $('#form').formValidation({
-            framework: 'bootstrap',
-            icon: {
-                valid: 'glyphicon glyphicon-ok',
-                invalid: 'glyphicon glyphicon-remove',
-                validating: 'glyphicon glyphicon-refresh'
-            },
-            row: {
-                valid: 'field-success',
-                invalid: 'field-error'
-            },
-            fields: {
-                eventName: {
-                    validators: {
-                        notEmpty: {
-                            message: 'The event name is required'
-                        },
-                        stringLength: {
-                            min: 2,
-                            max: 15,
-                            message: 'The event name must be more than 3 and less than 15 characters long'
-                        },
-                        regexp: {
-                            regexp: /^[a-zA-Z0-9_\.]+$/,
-                            message: 'The event name can only consist of alphanumerical characters'
-                        }
-                    }
-                },
-                eventDate: {
-                    validators: {
-                        notEmpty: {
-                            message: 'The name is required'
-                        },
-                        stringLength: {
-                            min: 2,
-                            max: 15,
-                            message: 'The name must be more than 3 and less than 15 characters long'
-                        },
-                        regexp: {
-                            regexp: /^([a-zA-Z\s]{2,})$/,
-                            message: 'The name can only consist of alphabetical characters'
-                        }
-                    }
-                },
-                eventTime: {
-                    validators: {
-                        notEmpty: {
-                            message: 'The name is required'
-                        },
-                        stringLength: {
-                            min: 2,
-                            max: 15,
-                            message: 'The name must be more than 3 and less than 15 characters long'
-                        },
-                        regexp: {
-                            regexp: /^([a-zA-Z\s]{2,})$/,
-                            message: 'The name can only consist of alphabetical characters'
-                        }
-                    }
-                },
-                contactPersonFirst: {
-                    validators: {
-                        notEmpty: {
-                            message: 'The name is required'
-                        },
-                        stringLength: {
-                            min: 2,
-                            max: 15,
-                            message: 'The name must be more than 3 and less than 16 characters long'
-                        },
-                        regexp: {
-                            regexp: /^([a-zA-Z\s]{2,15})$/,
-                            message: 'The name can only consist of alphabetical characters'
-                        }
-                    }
-                },
-                contactPersonLast: {
-                    validators: {
-                        notEmpty: {
-                            message: 'The name is required'
-                        },
-                        stringLength: {
-                            min: 2,
-                            max: 15,
-                            message: 'The name must be more than 3 and less than 16 characters long'
-                        },
-                        regexp: {
-                            regexp: /^([a-zA-Z\s]{2,15})$/,
-                            message: 'The name can only consist of alphabetical characters'
-                        }
-                    }
-                },
-                contactNumber: {
-                    validators: {
-                        notEmpty: {
-                            message: 'The number is required'
-                        },
-                        stringLength: {
-                            min: 10,
-                            max: 11,
-                            message: 'The number must be atleast 10 and less than 12 characters long'
-                        },
-                        regexp: {
-                            regexp: /^\d{3}-\d{3}-\d{4}$/,
-                            message: 'The number field can only consist of numerical characters'
-                        }
-                    }
-                },
-                email: {
-                    validators: {
-                        notEmpty: {
-                            message: 'The name is required'
-                        },
-                        stringLength: {
-                            min: 2,
-                            max: 15,
-                            message: 'The name must be more than 3 and less than 15 characters long'
-                        },
-                        regexp: {
-                            regexp: /^([a-zA-Z\s]{2,})$/,
-                            message: 'The name can only consist of alphabetical characters'
-                        }
-                    }
-                },
-                password: {
-                    validators: {
-                        notEmpty: {
-                            message: 'The password is required'
-                        }
-                    }
-                }
-            }
-        });
-    });
-    </script>-->
-
   </head>
 
 
@@ -213,23 +68,10 @@
       </div>
       <h3>Book Me</h3>
       <form id="form" name="contactForm" method="post" onsubmit="ValidateForm(this.contactForm)">
-      <!--<form name="contactForm" method="post" action="#"> DONT THINK I NEED THIS -->
-      <!--<form data-parsley-validate id="form" name="contactForm" >-->
-      <!--<form name="contactForm" action="contact.html" onsubmit="return validateContactForm();" method="post">-->
-        <!--<div class="row">
-  		    <div class="span12">-->
   			    <label for="eventName">Name of event*</label><br>
             <div class="form-group input-group">
   			      <input type="text" class="form-control" id="eventName" name="eventName" required>
             </div>
-            <!--<br>-->
-
-            <!--<label for="date">Date of event*</label><br>
-            <div class="form-group input-group">
-              <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
-              <input type="date" class="form-control" id="date" name="date" required>
-            </div>-->
-
 
   			    <label for="eventDate">Date of event*</label>
             <div class="form-group">
@@ -286,11 +128,6 @@
               <div class="input-group">
                 <span class="input-group-addon special"><i class="fa fa-mobile" aria-hidden="true"></i></span>
                 <input type="tel" placeholder="(123)-456-7890" class="form-control" id="contactNumber" name="contactNumber" pattern="^[0-9\s\-()+\.]+$">
-
-              <!--OR THIS IS THE FONTAWESOME WAY BUT IT INCREASES THE INPUT BOX
-              <span class="input-group-addon"><i class="fa fa-mobile fa-2x" aria-hidden="true"></i></span>
-              <input type="tel" placeholder="(123)-456-7890" class="form-control input-lg" id="contactNumber" name="contactNumber">
-              END-->
               </div>
             </div>
 
@@ -304,9 +141,6 @@
             <br>
 
             <input type="submit" />
-            <!--<input type="submit" name="SubmitButton" value="Submit" onClick="ValidateForm(this.contactForm)">-->
-  		    <!--</div>
-  	    </div>-->
       </form>
     </div><!--/CONTAINER -->
 
@@ -323,7 +157,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js"></script>
 
     <!---*******************THIS IS FOR AUTO COLOR CHANGE ON FORM INPUT*------------------------------------------>
-    <!--***********THIS SCRIPT WORKS*********-->
     <script>
     function ValidateForm(form){
       ErrorText= "";
@@ -334,52 +167,9 @@
       if (ErrorText= "") { contactForm.submit() }
     }
     </script>
-    <!--<script>
-    //$('#eventDate').blur(function ()   {
-    //var s = $('#eventDate').val();   alert('Entered date is:' + s);
-    //var parms = s.split(/[\.\-\/]/);
-    //var yyyy = parseInt(parms[2], 10);
-
-    //var date = new Date();
-    //var n = d.getFullYear(); //alert('current year is :' + n);
-    //if (yyyy > n || yyyy < 2016) {
-    //    alert('Improper date format, Please enter mm/dd/yyyy format. (invalid year)');
-    //}
-    //var mm = parseInt(parms[1], 10);
-    //if (mm > 12 || mm < 0)
-    //{
-    //    alert('Improper date format, Please enter mm/dd/yyyy format. (invalid month)');
-    //}
-    //var dd = parseInt(parms[0], 10);
-    //if (dd > 31 || dd < 0)
-    //{
-    //    alert('Improper date format, Please enter mm/dd/yyyy format. (invalid day)');
-    //}
-
-    ////var date = new Date(dd, mm - 1, yyyy, 12, 0, 0, 0);
-    ////var ndate = (date.getMonth() + 1) && ddmm === date.getDate() &&  yyyy === date.getFullYear();
-    //// alert('new date is:' + ndate);
-    //});
-    </script>-->
-    <!--****************END******************-->
 
     <script>
     $(document).ready(function() {
-        // Generate a simple captcha
-        function randomNumber(min, max) {
-            return Math.floor(Math.random() * (max - min + 1) + min);
-        }
-
-        function generateCaptcha() {
-            $('#captchaOperation').html([randomNumber(1, 100), '+', randomNumber(1, 200), '='].join(' '));
-        }
-
-        generateCaptcha();
-
-
-
-
-
         $('#form')
             .formValidation({
                 framework: 'bootstrap',
@@ -395,9 +185,9 @@
                               message: 'The event name is required'
                           },
                           stringLength: {
-                              min: 2,
+                              min: 3,
                               max: 45,
-                              message: 'The event name must be more than 3 and less than 15 characters long'
+                              message: 'The event name must be more than 2 and less than 45 characters long'
                           },
                           regexp: {
                               regexp: /^[a-zA-Z0-9_ \.]+$/,
@@ -493,30 +283,10 @@
                               message: 'The message must be less than 700 characters long'
                           }
                       }
-                  },
-                  captcha: {
-                      validators: {
-                          callback: {
-                              message: 'Wrong answer',
-                              callback: function(value, validator, $field) {
-                                  var items = $('#captchaOperation').html().split(' '),
-                                      sum   = parseInt(items[0]) + parseInt(items[2]);
-                                  return value == sum;
-                              }
-                          }
-                      }
                   }
                 }
             })
-            .on('err.form.fv', function(e) {
-                // Regenerate the captcha
-                generateCaptcha();
-            });
     });
     </script>
-    <!---*END*------------------------------------------------------------->
-
-
-
   </body>
 </html>
