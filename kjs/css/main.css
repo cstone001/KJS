@@ -1,54 +1,10 @@
 /*main.css*/
-/*html, body, h1, h2, h3, h4, p, div, ul, li, ol, a {
-  padding: 0;
-  border: 0;
-  margin: 0;
-  font: inherit;
-  font-size: 100%;
-}*/
-/*font*/
-/*@font-face {
-  font-family: 'OpenSansRegular';
-  src: url('OpenSansRegular-webfont.eot');
-  font-style: normal;
-  font-weight: normal;
-}
-
-html, body, h1, h2, h3, h4, p, div, ul, li, ol, a {
-  font-family: 'OpenSansRegular', Helvetica, Arial, sans-serif;
-}
-*/
-
-
-
-/*nav ul {
-  background-color: #AB987A;
-}
-nav ul li:hover {
-  background-color: #554c3d;
-}
-nav ul li:hover a {
-  color: #fff;
-}
-
-nav ul li a {
-  color: #0F1626;
-}
-nav ul ul li:hover a {
-  color: #fff;
-}
-nav ul li ul li{
-  background-color: #AB987A;
-}
-*/
 body{
   background-color: #584f44;
 }
 
 h3 {
   color: #FFF;
-  /*font-family: 'Limelight', cursive;
-  font-size: 25px;*/
   text-shadow: 4px 4px 6px #000;
   margin-top: 75px;
 }
@@ -60,13 +16,9 @@ h3 {
 }
 
 .logo {
-  /*color: white;*/
   font-family: 'Limelight', cursive;
-  /*font-size: 25px;*/
-  /*text-shadow: 4px 4px 6px #000000;*/
   margin-top: 5%;
 }
-
 
 .special{
   padding: 6px 14.5px;
@@ -80,10 +32,6 @@ h3 {
 .movedown {
   padding-top: 25px;
 }
-
-/*.space {
-  margin-top: 75px;
-}*/
 
 /*-----------------------------------------------*/
 /*-------------->>>BLOCKQUOTE<<<-----------------*/
@@ -102,14 +50,8 @@ blockquote footer {
   border-right: none;
 }
 
-/*DON'T NEED THE SPACE BELOW*/
-/*.space {
-  margin-top: 45px;
-}*/
-
 /*REMOVED THE HEADER FROM MY HTML*/
 .header{
-  /*float: left; */ /*MAKES LOGO UNCLICKABLE*/
   padding-top: 43px;
   margin-top: 15px;
 }
@@ -157,7 +99,6 @@ nav ul li a {
   color: #0F1626;
   text-decoration: none;
   height: 40px;
-  border: red 1px solid; /*REMOVE WHEN COMPLETE*/
 }
 
 nav ul ul {
@@ -168,12 +109,10 @@ nav ul ul {
 nav ul ul li {
   float: none;
   position: relative;
-  /*background-color: #AB987A;*/
 }
 
 nav ul ul li a {
   padding: 15px 40px;
-  /*color: #fff;*/
 }
 nav ul ul li a:hover {
   background-color: #887961;
@@ -195,8 +134,6 @@ nav ul ul li a:hover {
   background-color: #AB987A;
   border: none;
   padding: 0 5%;
-  /*padding-right: 58px;
-  padding-left: 58px;*/
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover {
@@ -213,9 +150,9 @@ nav ul ul li a:hover {
     color: #F7882F;
 }
 
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    border-color: red; /*CHANGE TO NONE WHEN DONE*/
-}
+/*.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: red; /*CHANGE TO NONE WHEN DONE
+}*/
 
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
     color: #f7882f;
@@ -235,8 +172,6 @@ nav ul ul li a:hover {
 
 .navbar-nav>li>a {
   padding: 0 10px;
-  /*padding-top: 10px;
-  padding-bottom: 10px;*/
   line-height: 20px;
 }
 
@@ -263,25 +198,12 @@ nav ul ul li a:hover {
 .navbar-right{
   margin: 3px 0 0 0;
 }
-/*TRYING TO FIX NAVBAR WHEN COLLAPSED*/
+
 .navbar-nav {
-  /*float: right;*/
   margin: 0px 0px;
 }
-/*END*/
+
 /*END NAV*/
-
-
-/*.logo {
-  /*color: white;*/
-  /*font-family: 'Limelight', cursive;*/
-  /*font-size: 25px;*/
-  /*text-shadow: 4px 4px 6px #000000;*/
-  /*margin-top: auto;*/
-/*}*/
-
-
-
 .glyphicon-remove {
   color: #cc0000;
 }
@@ -321,137 +243,6 @@ nav ul ul li a:hover {
   font-size: 11.9px;
 }
 
-/*.parsley-errors-list {
-  color: red;
-  list-style-type: none;
-  font-weight: bold;
-}
-
-.parsley-success {
-  color: green;
-}*/
-
-/*
-.field-error .control-label,
-.field-error .help-block,
-.field-error .form-control-feedback {
-    color: #ff0039;
-}
-
-.field-success .control-label,
-.field-success .help-block,
-.field-success .form-control-feedback {
-    color: #2780e3;
-}*/
-
-
-/*I AM TRYING TO ADD A GREEN VERIFICATION CHECK*/
-/*input[type="text"]:valid {
-  background: #fff url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/check.svg) no-repeat;
-  background-size: 20px;
-  background-position: 90% 6px;
-  color: green;
-
-}*/
-
-/*END*/
-/*
-input[type="email"]:invalid {
-  background: #fff url(images/logo.png) no-repeat;
-  background-size: 20px;
-  background-position: 90% 6px;
-  color: red;
-}
-
-input[type="email"]:valid {
-  background: #fff url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/check.svg) no-repeat;
-  background-size: 20px;
-  background-position: 90% 6px;
-  color: green;
-
-}*/
-
-
-
-
-
-
-
-
-
-/*****************************/
-/*******>>>NAVIGATION<<<******/
-/*****************************/
-/*nav {
-  background-color: #AB987A;
-}
-
-nav ul {
-  padding-top: 3px;
-  list-style: none;
-  position: relative;
-  display: inline-table;
-}
-
-nav ul :after {
-  content: "";
-  clear: both;
-  display: block;
-}
-
-nav ul li {
-  float: left;
-}
-
-nav ul li:hover {
-  background: #887961;
-  border-radius: 10px;
-}
-
-nav ul li:hover a {
-  color: #0F1626;
-}
-
-nav ul li a {
-  display: block;
-  padding: 25px 40px;
-  color: #0F1626;
-  text-decoration: none;
-  height: 40px;
-  border: red 1px solid; /*REMOVE WHEN COMPLETE*
-}
-
-nav ul ul {
-  display: none;
-  background-color: #AB987A;
-}
-
-nav ul ul li {
-  float: none;
-  position: relative;
-  /*background-color: #AB987A;*
-}
-
-nav ul ul li a {
-  padding: 15px 40px;
-  /*color: #fff;*
-}
-nav ul ul li a:hover {
-  background-color: #887961;
-  border-radius: 10px;
-  color: #0F1626;
-}
-
-
-
-
-nav ul li:hover > ul {
-  display: block;
-}*/
-/********END-NAV***************/
-
-
-
 .jumbotron {
   background: #fff url("../images/kevin-hs2.jpg") no-repeat;
   background-size: 100% 100%;
@@ -461,13 +252,10 @@ nav ul li:hover > ul {
 .jumbotron h1 {
   height: 350px;
   color: white;
-  /*font-family: 'Limelight', cursive;*/
   font-size: 25px;
   text-shadow: 4px 4px 6px #000;
-  /*text-align: center;*/
   margin: -11% 0 65px 0;
 }
-
 
 /*MOVE @MEDIA TO THE BOTTOM*/
 @media screen and (max-width:491px) {
@@ -504,8 +292,6 @@ nav ul li:hover > ul {
   }
 }
 
-
-
 /*MODIFIED THE NAVBAR COLLAPSE*/
 @media (max-width:767px) {
   .navbar-header {
@@ -541,15 +327,7 @@ nav ul li:hover > ul {
   }
   .navbar-nav>li>a {
       padding: 10px 0;
-      /*padding-top: 10px;
-      padding-bottom: 10px;*/
   }
-  /********ul.nav.navbar-nav.navbar-right {
-      margin: -6px 85px 0 0;
-      /*margin-top: -6px;
-      margin-right: 85px;*
-
-  }**************/
   .collapse.in{
       display:block !important;
   }
@@ -572,18 +350,6 @@ nav ul li:hover > ul {
   }
 }
 /*END*/
-
-
-
-
-
-
-/*REMOVE THIS WHEN DONE STYLING*/
-div, span, p {
-  border: 1px solid red;
-}
-
-
 
 /*carousel*/
 /* Makes images fully responsive */
@@ -620,14 +386,12 @@ div, span, p {
   border-bottom-left-radius: 35px;
   border-bottom-right-radius: 35px;
   width: 86%;
-  /*animation-delay: 2s;*/
 }
 
 /*ADD THIS TO STYLE.CSS IF I USE*/
 .carousel-caption h3:first-child {
     animation-delay: 1s;
 }
-
 
 .carousel-indicators {
   position: absolute;
@@ -675,7 +439,6 @@ div, span, p {
 }
 /*END CAROUSEL*/
 
-
 .img-float-right {
   float: right;
   width: 250px;
@@ -685,21 +448,7 @@ div, span, p {
   margin: 0 0 2px 10px;
 }
 
-
-/*nav ul li ul li:hover a {
-  background-color: #554c3d;
-  color: #fff;
-}*/
-
-
-
-
-.inner-div {
-  /*padding: 250px 50px 250px 50px;*/
-}
-
-
-/*TRYING TO ADJUST MEDIA NAVBAR CLICK COLORS*/
+/*ADJUST MEDIA NAVBAR CLICK COLORS*/
 .navbar-default .navbar-nav>.open>a {
   background-color: #AB987A;
 }
@@ -722,6 +471,4 @@ div, span, p {
     background-color: #887961;
   }
 }
-
-
 /*END*/
