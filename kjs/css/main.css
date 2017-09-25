@@ -375,12 +375,11 @@ nav ul ul li a:hover {
 .carousel-caption {
   background-color: rgba(0,0,0,.5);
   position: absolute;
-  left: 6%;
-  right: 6%;
+  left: 7%;
+  right: 7%;
   bottom: 0;
   z-index: 10;
   padding: 0 0 10px 25px;
-  margin-left: 10px;
   color: #fff;
   text-align: left;
   border-bottom-left-radius: 35px;
