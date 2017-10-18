@@ -22,11 +22,6 @@ h3 {
 
 .special{
   padding: 6px 14.5px;
-
-}
-/*THIS KEEPS THE INPUT BOX THE SAME SIZE AS THE OTHERS */
-.fa-mobile-phone:before, .fa-mobile:before{
-  font-size: 20px;
 }
 
 .movedown {
@@ -40,10 +35,9 @@ blockquote {
   margin-right: -19px;
   border-right: 100px solid #DF4908;
 }
-
-blockquote footer {
-  color: #5f5e5d;
-}
+  blockquote footer {
+    color: #5f5e5d;
+  }  
 
 .blockquote-reverse {
   margin-right: -15px;
@@ -62,63 +56,53 @@ blockquote footer {
 nav {
   background-color: #AB987A;
 }
-
-nav ul {
-  padding-top: 3px;
-  list-style: none;
-  position: relative;
-  display: inline-table;
-}
-
-nav ul :after {
-  content: "";
-  clear: both;
-  display: block;
-}
-
-nav ul li {
-  float: left;
-}
-
-nav ul li:hover {
-  background: #887961;
-  border-radius: 10px;
-}
-
-nav ul li:hover > ul {
-  display: block;
-}
-
-nav ul li:hover a {
-  color: #0F1626;
-}
-
-nav ul li a {
-  display: block;
-  padding: 25px 40px;
-  color: #0F1626;
-  text-decoration: none;
-  height: 40px;
-}
-
-nav ul ul {
-  display: none;
-  background-color: #AB987A;
-}
-
-nav ul ul li {
-  float: none;
-  position: relative;
-}
-
-nav ul ul li a {
-  padding: 15px 40px;
-}
-nav ul ul li a:hover {
-  background-color: #887961;
-  border-radius: 10px;
-  color: #0F1626;
-}
+  nav ul {
+    padding-top: 3px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+  }
+    nav ul :after {
+      content: "";
+      clear: both;
+      display: block;
+    }
+    nav ul li {
+      float: left;
+    }
+      nav ul li:hover {
+        background: #887961;
+        border-radius: 10px;
+      }
+        nav ul li:hover > ul {
+          display: block;
+        }
+        nav ul li:hover a {
+          color: #0F1626;
+        }
+      nav ul li a {
+        display: block;
+        padding: 25px 40px;
+        color: #0F1626;
+        text-decoration: none;
+        height: 40px;
+      }
+    nav ul ul {
+      display: none;
+      background-color: #AB987A;
+    }
+      nav ul ul li {
+        float: none;
+        position: relative;
+      }
+        nav ul ul li a {
+          padding: 15px 40px;
+        }
+          nav ul ul li a:hover {
+            background-color: #887961;
+            border-radius: 10px;
+            color: #0F1626;
+          }
 
 .container-nav{
   background-color: #AB987A;
@@ -145,19 +129,13 @@ nav ul ul li a:hover {
     color: #0F1626;
     padding-top: 7px;
 }
-
-.navbar-default .navbar-nav>li>a:hover {
-    color: #F7882F;
-}
+    .navbar-default .navbar-nav>li>a:hover {
+      color: #F7882F;
+    }
 
 /*.navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: red; /*CHANGE TO NONE WHEN DONE
 }*/
-
-.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
-    color: #f7882f;
-    background-color: transparent;
-}
 
 .navbar-default .navbar-brand {
   color: #FFF;
@@ -165,21 +143,27 @@ nav ul ul li a:hover {
   font-size: 19px;
   padding-top: 13px;
 }
+  .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #f7882f;
+    background-color: transparent;
+  }
 
 .navbar-brand {
   font-family: 'Limelight', cursive;
 }
 
-.navbar-nav>li>a {
-  padding: 0 10px;
-  line-height: 20px;
+.navbar-nav {
+  margin: 0;
 }
+  .navbar-nav>li>a {
+    padding: 0 10px;
+    line-height: 20px;
+  }
 
 .dropdown-menu {
   background-color: #AB987A;
 }
-
-.dropdown-menu>li>a {
+  .dropdown-menu>li>a {
     display: block;
     padding: 9px 20px;
     clear: both;
@@ -187,20 +171,15 @@ nav ul ul li a:hover {
     line-height: 1.42857143;
     color: #333;
     white-space: nowrap;
-}
-
-.dropdown-menu>li>a:hover {
-    color: #F7882F;
-    text-decoration: none;
-    background-color: #887961;
-}
+  }
+    .dropdown-menu>li>a:hover {
+      color: #F7882F;
+      text-decoration: none;
+      background-color: #887961;
+    }
 
 .navbar-right{
   margin: 3px 0 0 0;
-}
-
-.navbar-nav {
-  margin: 0px 0px;
 }
 
 /*END NAV*/
@@ -246,16 +225,16 @@ nav ul ul li a:hover {
 .jumbotron {
   background: #fff url("../images/kevin-hs2.jpg") no-repeat;
   background-size: 100% 100%;
-  margin: 50px 16% 0 16%;
+  margin: 50px 16% 0;
   height: 500px;
 }
-.jumbotron h1 {
-  height: 350px;
-  color: white;
-  font-size: 25px;
-  text-shadow: 4px 4px 6px #000;
-  margin: -11% 0 65px 0;
-}
+  .jumbotron h1 {
+    height: 350px;
+    color: white;
+    font-size: 25px;
+    text-shadow: 4px 4px 6px #000;
+    margin: -11% 0 65px;
+  }
 
 /*MOVE @MEDIA TO THE BOTTOM*/
 @media screen and (max-width:491px) {
@@ -308,26 +287,24 @@ nav ul ul li a:hover {
   .navbar-collapse {
       border-top: 1px solid transparent;
       box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-
   }
+      .navbar-collapse.collapse {
+        display: none!important;
+      }
   .navbar-fixed-top {
       top: 0;
       border-width: 0 0 1px;
   }
-  .navbar-collapse.collapse {
-      display: none!important;
-  }
   .navbar-nav {
       float: none!important;
       margin-top: 7.5px;
-
   }
-  .navbar-nav>li {
-      float: none;
-  }
-  .navbar-nav>li>a {
-      padding: 10px 0;
-  }
+      .navbar-nav>li {
+        float: none;
+      }
+        .navbar-nav>li>a {
+         padding: 10px 0;
+        }
   .collapse.in{
       display:block !important;
   }
