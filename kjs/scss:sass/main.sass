@@ -1,0 +1,462 @@
+//colors
+$white_10: rgba(255,255,255,0.1)
+$color_mine_shaft_approx: #333
+$color_crusta_approx: #f7882f
+$color_cement_approx: #887961
+$color_fuscous_gray_approx: #584f44
+$white: #fff
+$black: #000
+$color_santas_gray_approx: #97a1b0
+$color_trinidad_approx: #df4908
+$color_chicago_approx: #5f5e5d
+$color_sandrift_approx: #ab987a
+$color_mirage_approx: #0f1626
+$color_jaffa_approx: #f2882f
+$color_guardsman_red_approx: #cc0000
+$color_japanese_laurel_approx: green
+$color_gallery_approx: #eee
+$color_apple_blossom_approx: #a94442
+$black_50: rgba(0,0,0,.5)
+
+//fonts
+$font_0: Limelight
+$font_1: cursive
+
+//urls
+$url_0: url(../images/kevin-hs2.jpg)
+
+body
+	background-color: $color_fuscous_gray_approx
+
+h3
+	color: $white
+	text-shadow: 4px 4px 6px $black
+	margin-top: 75px
+
+.container
+	background-color: $color_santas_gray_approx
+	min-height: 725px
+	margin: 0 5%
+
+.logo
+	font-family: $font_0, $font_1
+	margin-top: 5%
+
+.special
+	padding: 6px 14.5px
+
+.movedown
+	padding-top: 25px
+
+blockquote
+	margin-right: -19px
+	border-right: 100px solid $color_trinidad_approx
+	footer
+		color: $color_chicago_approx
+
+
+.blockquote-reverse
+	margin-right: -15px
+	border-right: none
+
+.header
+	padding-top: 43px
+	margin-top: 15px
+
+nav
+	background-color: $color_sandrift_approx
+	ul
+		padding-top: 3px
+		list-style: none
+		position: relative
+		display: inline-table
+		:after
+			content: ""
+			clear: both
+			display: block
+
+		li
+			float: left
+			&:hover
+				background: $color_cement_approx
+				border-radius: 10px
+				> ul
+					display: block
+
+				a
+					color: $color_mirage_approx
+
+
+			a
+				display: block
+				padding: 25px 40px
+				color: $color_mirage_approx
+				text-decoration: none
+				height: 40px
+
+
+		ul
+			display: none
+			background-color: $color_sandrift_approx
+			li
+				float: none
+				position: relative
+				a
+					padding: 15px 40px
+					&:hover
+						background-color: $color_cement_approx
+						border-radius: 10px
+						color: $color_mirage_approx
+
+
+
+
+
+
+.container-nav
+	background-color: $color_sandrift_approx
+	margin: auto 80px
+
+.nav
+	border: none
+	margin-top: 3px
+
+.navbar
+	background-color: $color_sandrift_approx
+	border: none
+	padding: 0 5%
+
+.navbar-default
+	.navbar-nav
+		>
+			.active > a
+				color: $color_jaffa_approx
+				background-color: $color_cement_approx
+				&:hover
+					color: $color_jaffa_approx
+					background-color: $color_cement_approx
+
+
+			.open > a
+				background-color: $color_sandrift_approx
+				color: $color_crusta_approx
+				background-color: $color_cement_approx
+				border-radius: 10px
+				&:focus
+					color: $color_crusta_approx
+					background-color: $color_cement_approx
+					border-radius: 10px
+
+				&:hover
+					color: $color_crusta_approx
+					background-color: $color_cement_approx
+					border-radius: 10px
+
+
+
+		> li > a
+			color: $color_mirage_approx
+			padding-top: 7px
+			&:hover
+				color: $color_crusta_approx
+
+
+
+	.navbar-brand
+		color: $white
+		text-shadow: 4px 4px 6px $black
+		font-size: 19px
+		padding-top: 13px
+		&:focus
+			color: $color_crusta_approx
+			background-color: transparent
+
+		&:hover
+			color: $color_crusta_approx
+			background-color: transparent
+
+
+
+.navbar-brand
+	font-family: $font_0, $font_1
+
+.navbar-nav
+	margin: 0
+	> li > a
+		padding: 0 10px
+		line-height: 20px
+
+
+.dropdown-menu
+	background-color: $color_sandrift_approx
+	> li > a
+		display: block
+		padding: 9px 20px
+		clear: both
+		font-weight: 400
+		line-height: 1.42857143
+		color: $color_mine_shaft_approx
+		white-space: nowrap
+		&:hover
+			color: $color_crusta_approx
+			text-decoration: none
+			background-color: $color_cement_approx
+
+
+
+.navbar-right
+	margin: 3px 0 0
+
+.glyphicon-remove
+	color: $color_guardsman_red_approx
+
+.glyphicon-ok
+	color: $color_japanese_laurel_approx
+
+.has-error
+	color: $color_guardsman_red_approx
+	font-weight: bold
+	.help-block
+		color: $color_guardsman_red_approx
+		font-weight: bold
+
+	.input-group-addon
+		color: $color_fuscous_gray_approx
+		background-color: $color_gallery_approx
+		border-color: $color_apple_blossom_approx
+
+	.form-control-feedback
+		color: $color_guardsman_red_approx
+
+
+.help-block
+	color: $color_guardsman_red_approx
+	font-weight: bold
+
+#error
+	color: $color_guardsman_red_approx
+	font-weight: bold
+	font-size: 11.9px
+
+.jumbotron
+	background: $white $url_0 no-repeat
+	background-size: 100% 100%
+	margin: 50px 16% 0
+	height: 500px
+	h1
+		height: 350px
+		color: $white
+		font-size: 25px
+		text-shadow: 4px 4px 6px $black
+		margin: -11% 0 65px
+
+
+@media screen and(max-width:491px)
+	.carousel-caption
+		border-bottom-right-radius: -12px
+
+	.jumbotron h1
+		opacity: 0
+
+
+@media screen and(min-width:498px) and(max-width: 603px)
+	.jumbotron h1
+		margin-top: -11%
+
+
+@media screen and(min-width:636px) and(max-width: 767px)
+	.jumbotron h1
+		margin-top: -8%
+
+
+@media screen and(min-width:768px) and(max-width: 898px)
+	.jumbotron h1
+		margin-top: -13%
+
+
+@media screen and(min-width: 992px) and(max-width:1144px)
+	.jumbotron h1
+		margin-top: -10%
+
+
+@media screen and(min-width: 1145px) and(max-width:1298px)
+	.jumbotron h1
+		margin-top: -8%
+
+
+@media(max-width:767px)
+	.navbar-header
+		float: none
+
+	.navbar-left
+		float: none !important
+		position: absolute
+		left: 87%
+
+	.navbar-right
+		float: none !important
+		position: absolute
+		left: 87%
+
+	.navbar-toggle
+		display: block
+
+	.navbar-collapse
+		border-top: 1px solid transparent
+		box-shadow: inset 0 1px 0 $white_10
+		&.collapse
+			display: none!important
+
+
+	.navbar-fixed-top
+		top: 0
+		border-width: 0 0 1px
+
+	.navbar-nav
+		float: none!important
+		margin-top: 7.5px
+		> li
+			float: none
+			> a
+				padding: 10px 0
+
+
+
+	.dropdown-menu
+		display: none !important
+
+	.collapse.in
+		display: block !important
+
+	.open .dropdown-menu
+		display: block !important
+
+
+@media screen and(min-width: 768px) and(max-width: 2098px)
+	.container
+		min-width: 90%
+		width: 90%
+
+
+.img-responsive
+	display: block
+	width: 100%
+	height: 600px
+	padding: 0 7%
+	border-radius: 10%
+
+.thumbnail
+	> img
+		display: block
+		width: 100%
+		height: 600px
+		padding: 0 7%
+		border-radius: 10%
+
+	a > img
+		display: block
+		width: 100%
+		height: 600px
+		padding: 0 7%
+		border-radius: 10%
+
+
+.carousel-inner
+	border-radius: 15px
+	> .item
+		> img
+			display: block
+			width: 100%
+			height: 600px
+			padding: 0 7%
+			border-radius: 10%
+
+		> a > img
+			display: block
+			width: 100%
+			height: 600px
+			padding: 0 7%
+			border-radius: 10%
+
+
+
+.carousel-caption
+	background-color: $black_50
+	position: absolute
+	left: 7%
+	right: 7%
+	bottom: 0
+	z-index: 10
+	padding: 0 0 10px 25px
+	color: $white
+	text-align: left
+	border-bottom-left-radius: 35px
+	border-bottom-right-radius: 35px
+	width: 86%
+	h3:first-child
+		animation-delay: 1s
+
+
+.carousel-indicators
+	position: absolute
+	bottom: 0
+	right: 0
+	left: 0
+	width: 100%
+	z-index: 15
+	margin: 0 5%
+	padding: 0 12% 25px
+	text-align: right
+
+.carousel-control
+	&.left
+		background-image: none
+
+	&.right
+		background-image: none
+
+
+.carousel
+	margin-top: 80px
+
+.section-white
+	padding: 10px 0
+	background-color: $white
+	color: $color_fuscous_gray_approx
+
+@media screen and(min-width: 768px)
+	.section-white
+		padding: 1.5em 0
+
+
+@media screen and(min-width: 992px)
+	.container
+		max-width: 930px
+
+
+.img-float-right
+	float: right
+	width: 250px
+	height: 250px
+	border: 2px solid $color_crusta_approx
+	padding: 5px
+	margin: 0 0 2px 10px
+
+@media(max-width: 767px)
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a
+		color: $color_mine_shaft_approx
+		&:hover
+			color: $color_crusta_approx
+			background-color: $color_cement_approx
+
+
+
+.fa-mobile-phone:before
+	font-size: 20px
+
+.fa-mobile:before
+	font-size: 20px
+
+.has-success .input-group-addon
+	color: $color_fuscous_gray_approx
+	background-color: $color_gallery_approx
