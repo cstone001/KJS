@@ -44,12 +44,6 @@ blockquote {
   border-right: none;
 }
 
-/*REMOVED THE HEADER FROM MY HTML*/
-.header{
-  padding-top: 43px;
-  margin-top: 15px;
-}
-
 /*-----------------------------------------------*/
 /*-------------->>>NAVIGATION<<<-----------------*/
 /*-----------------------------------------------*/
@@ -106,7 +100,7 @@ nav {
 
 .container-nav{
   background-color: #AB987A;
-  margin: auto 80px; /*MAKE -80 TO STRETCH THE ENTIRE SCREEN*/
+  margin: auto 80px; 
 }
 
 .nav{
@@ -132,10 +126,6 @@ nav {
     .navbar-default .navbar-nav>li>a:hover {
       color: #F7882F;
     }
-
-/*.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    border-color: red; /*CHANGE TO NONE WHEN DONE
-}*/
 
 .navbar-default .navbar-brand {
   color: #FFF;
@@ -308,7 +298,6 @@ nav {
   .collapse.in{
       display:block !important;
   }
-  /*REMOVES HOVER STATE WHEN NAVBAR IS COLLAPSED*/
   .dropdown-menu {
     display: none !important;
   }
@@ -364,7 +353,6 @@ nav {
   width: 86%;
 }
 
-/*ADD THIS TO STYLE.CSS IF I USE*/
 .carousel-caption h3:first-child {
     animation-delay: 1s;
 }
@@ -390,7 +378,7 @@ nav {
   margin-top: 80px;
 }
 
-/* ------------------- Section Styling - Not needed for carousel styling ------------------- */
+/* ------------------- Section Styling ------------------- */
 
 .section-white {
    padding: 10px 0;
